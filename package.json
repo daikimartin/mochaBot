@@ -1,0 +1,16 @@
+{
+  "name": "mochaBot",
+  "version": "1.0.0",
+  "description": "order your favourite coffee!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Martin <@daikimartin>",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.15.0",
+    "dotenv-extended": "^2.0.2",
+    "restify": "^7.1.1"
+  }
+}

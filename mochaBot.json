@@ -1,0 +1,187 @@
+{
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1",
+  "name": "mochaBot",
+  "desc": "order your favourite coffee!",
+  "culture": "es-es",
+  "intents": [
+    {
+      "name": "Cancelar"
+    },
+    {
+      "name": "Comprobar"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Pedir"
+    },
+    {
+      "name": "Saludar"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Coffee",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "¿a que hora estará mi pedido?",
+      "intent": "Comprobar",
+      "entities": []
+    },
+    {
+      "text": "¿como va?",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "¿he pedido un mocha verdad?",
+      "intent": "Comprobar",
+      "entities": [
+        {
+          "entity": "Coffee",
+          "startPos": 14,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "¿llegará mi pedido a tiempo?",
+      "intent": "Comprobar",
+      "entities": []
+    },
+    {
+      "text": "¿puedes atenderme?",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "¿puedes cancelar mi pedido?",
+      "intent": "Cancelar",
+      "entities": []
+    },
+    {
+      "text": "¿puedes enviarme un forte con leche en 5 minutos?",
+      "intent": "Pedir",
+      "entities": [
+        {
+          "entity": "Coffee",
+          "startPos": 20,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "¿qué he pedido?",
+      "intent": "Comprobar",
+      "entities": []
+    },
+    {
+      "text": "¿tienes mocha?",
+      "intent": "Comprobar",
+      "entities": [
+        {
+          "entity": "Coffee",
+          "startPos": 8,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "buenas tardes",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "buenos días",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "cancela mi pedido",
+      "intent": "Cancelar",
+      "entities": []
+    },
+    {
+      "text": "cancelar",
+      "intent": "Cancelar",
+      "entities": []
+    },
+    {
+      "text": "desearía un lungo dentro de 15 minutos",
+      "intent": "Pedir",
+      "entities": [
+        {
+          "entity": "Coffee",
+          "startPos": 12,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "hola",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "ponme un ristretto gracias",
+      "intent": "Pedir",
+      "entities": [
+        {
+          "entity": "Coffee",
+          "startPos": 9,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "por favor, cancela el pedido",
+      "intent": "Cancelar",
+      "entities": []
+    },
+    {
+      "text": "quiero un espresso",
+      "intent": "Pedir",
+      "entities": [
+        {
+          "entity": "Coffee",
+          "startPos": 10,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "un mocha por favor",
+      "intent": "Pedir",
+      "entities": [
+        {
+          "entity": "Coffee",
+          "startPos": 3,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "ya no lo quiero",
+      "intent": "Cancelar",
+      "entities": []
+    }
+  ]
+}

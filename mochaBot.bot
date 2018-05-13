@@ -1,0 +1,15 @@
+{
+    "name": "mochaBot",
+    "description": "",
+    "secretKey": "",
+    "services": [
+        {
+            "appId": "",
+            "id": "7f82b6d0-5677-11e8-8987-035dfd6be43c",
+            "type": "endpoint",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ]
+}
